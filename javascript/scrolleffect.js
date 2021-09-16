@@ -42,7 +42,9 @@ function debounce(func, wait, immediate) {
   };
 }
 
-const mobile = window.matchMedia("max-width=500px");
+const minhaFoto = document.querySelector(".minha-foto");
+
+const mobile = window.matchMedia("(max-width:500px)");
 
 if (mobile.matches) {
   minhaFoto.removeAttribute("data-anime");
@@ -51,8 +53,6 @@ if (mobile.matches) {
 const buttonUp = document.querySelector(".buttonUp");
 
 const target = document.querySelectorAll("[data-anime]");
-
-const minhaFoto = document.querySelector(".minha-foto");
 
 if (target.length) {
   window.addEventListener(
