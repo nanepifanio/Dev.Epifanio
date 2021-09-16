@@ -62,11 +62,6 @@ if (target.length) {
             `${element.getAttribute("data-anime")}`,
             `animate`
           );
-        } else {
-          element.classList.remove(
-            `${element.getAttribute("data-anime")}`,
-            `animate`
-          );
         }
       });
     }),
