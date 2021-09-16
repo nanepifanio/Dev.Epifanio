@@ -294,12 +294,6 @@ body::-webkit-scrollbar-thumb {
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
-  .bg-topo {
-    height: 600px;
-  }
-}
-
 /*********************** Header **********************/
 
 .header {
@@ -430,7 +424,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 812px) {
+@media (max-width: 840px) {
   .apresentacao {
     font-size: 2.5rem;
   }
