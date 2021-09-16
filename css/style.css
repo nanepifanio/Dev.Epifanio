@@ -695,13 +695,13 @@ abbr img:hover {
   overflow: hidden;
   box-shadow: inset -15px -10px 10px rgba(0, 0, 0, 0.185);
   border-radius: 6px;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .slider-width {
   display: flex;
   transition: all ease 1s;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .slider-count {
