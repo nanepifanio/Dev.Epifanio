@@ -55,7 +55,7 @@ if (target.length) {
       } else {
         buttonUp.style.opacity = "0";
       }
-      const windowTop = window.scrollY + window.innerHeight * 0.75;
+      const windowTop = window.scrollY + window.innerHeight * 0.8;
       target.forEach((element) => {
         if (windowTop > element.offsetTop) {
           element.classList.add(
