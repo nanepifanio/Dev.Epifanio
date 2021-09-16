@@ -45,7 +45,7 @@ function debounce(func, wait, immediate) {
 const mobile = window.matchMedia("max-width=500px");
 
 if (mobile.matches) {
-  minhaFoto.removeAttribute("[data-anime]");
+  minhaFoto.removeAttribute("data-anime");
 }
 
 const buttonUp = document.querySelector(".buttonUp");
