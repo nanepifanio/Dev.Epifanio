@@ -430,7 +430,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .apresentacao {
     font-size: 2.5rem;
   }
