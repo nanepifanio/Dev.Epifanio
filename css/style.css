@@ -700,6 +700,8 @@ abbr img:hover {
 .slider-width {
   display: flex;
   transition: all ease 1s;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .slider-count {
