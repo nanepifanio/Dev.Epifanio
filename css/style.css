@@ -652,9 +652,15 @@ abbr img:hover {
     margin: 5px auto;
   }
 
+  .icones-experiencia {
+    justify-content: center;
+    align-items: center;
+  }
+
   .icones-interesse {
     margin-top: 20px;
     justify-content: center;
+    align-items: center;
   }
 }
 
