@@ -42,6 +42,14 @@ function debounce(func, wait, immediate) {
   };
 }
 
+const minhaFoto = document.querySelector(".minha-foto");
+
+const mobile = window.matchMedia("(max-width:500px)");
+
+if (mobile.matches) {
+  minhaFoto.removeAttribute("data-anime");
+}
+
 const buttonUp = document.querySelector(".buttonUp");
 
 const target = document.querySelectorAll("[data-anime]");
