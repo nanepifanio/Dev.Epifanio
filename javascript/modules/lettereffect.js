@@ -1,7 +1,6 @@
-export default letterEffect = () => {
-  const text = "Olá, me chamo Renan Epifânio e sou desenvolvedor web.";
-  if (text) {
-    const splitText = text.split("");
+export default function letterEffect(txt) {
+  if (txt) {
+    const splitText = txt.split("");
     const auto = setInterval(() => {
       const letter = splitText.shift();
       document.querySelector(
@@ -21,4 +20,4 @@ export default letterEffect = () => {
       }
     }, 100);
   }
-};
+}
