@@ -807,7 +807,13 @@ abbr img:hover {
 .icones-redes {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 200px;
+}
+
+.rede-trabalho {
+  margin-right: 10px;
 }
 
 .rede-trabalho h1 {
@@ -869,6 +875,8 @@ abbr img:hover {
   }
 
   .icones-redes {
+    flex-direction: row;
+    height: inherit;
     width: 200px;
   }
 
