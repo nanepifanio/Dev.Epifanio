@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
-
 :root {
   --font-white: #fff;
   --font-blue: #7ad1bb;
@@ -778,7 +774,6 @@ abbr img:hover {
   padding: 60px calc((100% - 960px) / 2);
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .contato {
@@ -809,26 +804,10 @@ abbr img:hover {
   text-decoration: underline;
 }
 
-.rede-trabalho {
-  display: flex;
-  flex-direction: column;
-  margin-right: 10px;
-  height: 300px;
-  justify-content: space-between;
-}
-
 .icones-redes {
   display: flex;
   justify-content: space-between;
-}
-
-.icones-trabalhos {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.icones-trabalhos a:first-child {
-  margin: 5px 25px 0px 0px;
+  align-items: center;
 }
 
 .rede-trabalho h1 {
@@ -852,6 +831,7 @@ abbr img:hover {
 @media (max-width: 768px) {
   .bg-contato {
     flex-direction: column;
+    align-items: center;
   }
 
   .contato {
@@ -886,25 +866,18 @@ abbr img:hover {
 
   .rede-trabalho {
     margin-top: 40px;
-    height: 260px;
   }
 
   .icones-redes {
     width: 200px;
   }
 
-  .redes h1,
-  .trabalho h1 {
+  .redes h1 {
     text-align: center;
   }
 
-  .redes h1::after,
-  .trabalho h1::after {
+  .redes h1::after {
     margin: 5px auto 25px auto;
-  }
-
-  .icones-trabalhos {
-    justify-content: center;
   }
 }
 
