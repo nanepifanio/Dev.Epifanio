@@ -334,12 +334,19 @@ body::-webkit-scrollbar-thumb {
   margin-right: 10px;
 }
 
-.menu-hamburguer div {
-  border: 2px solid var(--font-blue);
-  background-color: var(--font-blue);
+.menu-hamburguer::before {
+  content: "";
+  display: inline-block;
+  height: 4px;
   width: 40px;
-  margin-bottom: 5px;
+  background-color: var(--font-blue);
+  box-shadow: 0 8px var(--font-blue), 0 -8px var(--font-blue);
   border-radius: 3px;
+  transition: all ease 0.3s;
+}
+
+.menu-hamburguer.ativo::before {
+  transform: rotate(90deg);
 }
 
 @media (max-width: 812px) {
@@ -364,6 +371,7 @@ body::-webkit-scrollbar-thumb {
     overflow-y: hidden;
     overflow-x: hidden;
     border-radius: 6px;
+    margin-top: 20px;
   }
 
   .menu-opener {
