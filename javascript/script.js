@@ -1,5 +1,5 @@
 import letterEffect from "./modules/lettereffect.js";
-const text = "Olá, me chamo Renan Epifânio e sou desenvolvedor web.";
+const text = "Olá, me chamo Renan Epifânio e sou desenvolvedor Front-end.";
 letterEffect(text);
 
 import scrollEffect from "./modules/scrolleffect.js";
