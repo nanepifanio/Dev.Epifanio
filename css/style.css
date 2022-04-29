@@ -619,6 +619,14 @@ abbr img:hover {
   transform: scale(1.2);
 }
 
+.newIcons {
+  width: 75px;
+}
+
+.newIcons-1 {
+  width: 50px;
+}
+
 @media (max-width: 768px) {
   .bg-skills {
     text-align: center;
