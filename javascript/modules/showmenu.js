@@ -13,6 +13,9 @@ export default function showMenu() {
   });
 
   window.addEventListener("scroll", () => {
-    if (window.scrollY > menu.offsetTop) menu.classList.remove("menu-opener");
+    if (window.scrollY > menu.offsetTop) {
+      menu.classList.remove("menu-opener");
+      menuHamb.classList.remove("ativo");
+    }
   });
 }
