@@ -25,7 +25,7 @@ export default class TechPut {
   }
 
   async getIconsData() {
-    const json = await (await fetch("../../icons.json")).json();
+    const json = await (await fetch("../../Dev.Epifanio/icons.json")).json();
     this.putExperience(json);
     this.putToLearn(json);
   }

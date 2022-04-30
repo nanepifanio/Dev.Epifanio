@@ -19,7 +19,7 @@ export default class PutSlide {
   }
 
   async getSlidesData() {
-    const json = await (await fetch("../../slides.json")).json();
+    const json = await (await fetch("../../Dev.Epifanio/slides.json")).json();
     this.putSlide(json);
   }
 
