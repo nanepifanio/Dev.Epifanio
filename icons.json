@@ -1,0 +1,131 @@
+{
+  "experience": [
+    {
+      "title": "CSS3",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-html5.svg "
+    },
+    {
+      "title": "HTML5",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-html5.svg"
+    },
+    {
+      "title": "JavaScript",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-js.svg"
+    },
+    {
+      "title": "AdobeXd",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-adobexd.svg"
+    },
+    {
+      "title": "Figma",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-figma.svg"
+    },
+    {
+      "title": "SASS",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-sass.svg"
+    },
+    {
+      "title": "TypeScript",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-typescript.svg"
+    },
+    {
+      "title": "React.Js",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-react.svg"
+    },
+    {
+      "title": "Git",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-git.svg"
+    },
+    {
+      "title": "GitHub",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-github.svg"
+    },
+    {
+      "title": "WebPack",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-webpack.svg"
+    },
+    {
+      "title": "NPM",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-npm.svg"
+    },
+    {
+      "title": "Styled-Components",
+      "class": "newIcons",
+      "src": "assets/icons/tecnologias-design/styledcomponents.svg"
+    },
+    {
+      "title": "TailwindCSS",
+      "class": "newIcons",
+      "src": "assets/icons/tecnologias-design/tailwindcss.svg"
+    }
+  ],
+  "toLearn": [
+    {
+      "title": "Redux",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-redux.svg"
+    },
+    {
+      "title": "MySql",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-mysql.svg"
+    },
+    {
+      "title": "NodeJs",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-nodejs.svg"
+    },
+    {
+      "title": "MongoDB",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-mongodb.svg"
+    },
+    {
+      "title": "Docker",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-docker.svg"
+    },
+    {
+      "title": "PostgreQL",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-postgreql.svg"
+    },
+    {
+      "title": "Gulp",
+      "class": "",
+      "src": "assets/icons/tecnologias-design/icone-gulp.svg"
+    },
+    {
+      "title": "Next.Js",
+      "class": "newIcons-1",
+      "src": "assets/icons/tecnologias-design/nextdotjs.svg"
+    },
+    {
+      "title": "NestJs",
+      "class": "newIcons-1",
+      "src": "assets/icons/tecnologias-design/nestjs.svg"
+    },
+    {
+      "title": "AdonisJs",
+      "class": "newIcons-1",
+      "src": "assets/icons/tecnologias-design/adonisjs.svg"
+    },
+    {
+      "title": "Jest",
+      "class": "newIcons-1",
+      "src": "assets/icons/tecnologias-design/jest.svg"
+    }
+  ]
+}

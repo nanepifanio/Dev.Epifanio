@@ -280,7 +280,7 @@ body::-webkit-scrollbar-thumb {
 /************************ Topo ***********************/
 
 .bg-topo {
-  background: url("../imagens/bg-header.jpg") no-repeat center;
+  background: url("../assets/images/bg-header.jpg") no-repeat center;
   background-size: cover;
   padding: 30px calc((100% - 960px) / 2);
   height: 100vh;
@@ -542,7 +542,7 @@ body::-webkit-scrollbar-thumb {
 /********************* skills ************************/
 
 .bg-skills {
-  background: url(../imagens/bg-skills.jpg) no-repeat center;
+  background: url(../assets/images/bg-skills.jpg) no-repeat center;
   background-size: cover;
   padding: 60px calc((100% - 960px) / 2);
 }
@@ -785,7 +785,7 @@ abbr img:hover {
 /******************* Contato *************************/
 
 .bg-contato {
-  background: url(../imagens/bg-contato.jpg) no-repeat center;
+  background: url(../assets/images/bg-contato.jpg) no-repeat center;
   background-size: cover;
   padding: 60px calc((100% - 960px) / 2);
   display: flex;
