@@ -126,6 +126,11 @@
       "title": "Jest",
       "class": "newIcons-1",
       "src": "assets/icons/tecnologias-design/jest.svg"
+    },
+    {
+      "title": "Cypress",
+      "class": "newIcons-1",
+      "src": "assets/icons/tecnologias-design/cypress.svg"
     }
   ]
 }

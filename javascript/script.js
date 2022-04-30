@@ -19,4 +19,4 @@ slides.init();
 import slide from "./modules/slide.js";
 setTimeout(() => {
   slide();
-}, 200);
+}, 300);
