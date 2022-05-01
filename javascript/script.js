@@ -13,10 +13,10 @@ const tech = new TechPut(".icones-experiencia", ".icones-interesse");
 tech.init();
 
 import PutSlide from "./modules/putSlides.js";
-const slides = new PutSlide(".slider-width");
+const slides = new PutSlide(".projetos", ".slider-width");
 slides.init();
 
 import slide from "./modules/slide.js";
 setTimeout(() => {
   slide();
-}, 300);
+}, 100);

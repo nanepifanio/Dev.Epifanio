@@ -1,20 +1,17 @@
 export default class PutSlide {
-  constructor(slideContainer) {
+  constructor(sliderArea, slideContainer) {
     this.slideContainer = document.querySelector(slideContainer);
+    this.sliderArea = document.querySelector(sliderArea);
   }
 
   putSlide(data) {
+    this.sliderArea.style.display = "block";
+    this.slideContainer.innerHTML = "";
     data.forEach((slide) => {
-      this.slideContainer.innerHTML += `
-      <div class="projetos">
-          <a
-            href=${slide.href}
-            target="_blank"
-            rel="external"
-            ><img src=${slide.src}
-          /></a>
-       </div>
-      `;
+      const projectArea = this.sliderArea.cloneNode(true);
+      projectArea.querySelector("a").href = slide.href;
+      projectArea.querySelector("a img").src = slide.src;
+      this.slideContainer.appendChild(projectArea);
     });
   }
 

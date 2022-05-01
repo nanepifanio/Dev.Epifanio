@@ -736,6 +736,7 @@ abbr img:hover {
   flex: 1 0 70vw;
   align-self: center;
   object-fit: cover;
+  display: none;
 }
 
 .projetos img {
