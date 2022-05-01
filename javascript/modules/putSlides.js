@@ -1,3 +1,5 @@
+import slide from "./slide.js";
+
 export default class PutSlide {
   constructor(sliderArea, slideContainer) {
     this.slideContainer = document.querySelector(slideContainer);
@@ -13,6 +15,7 @@ export default class PutSlide {
       projectArea.querySelector("a img").src = slide.src;
       this.slideContainer.appendChild(projectArea);
     });
+    slide();
   }
 
   async getSlidesData() {

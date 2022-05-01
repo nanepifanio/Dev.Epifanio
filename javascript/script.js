@@ -15,8 +15,3 @@ tech.init();
 import PutSlide from "./modules/putSlides.js";
 const slides = new PutSlide(".projetos", ".slider-width");
 slides.init();
-
-import slide from "./modules/slide.js";
-setTimeout(() => {
-  slide();
-}, 100);
