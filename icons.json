@@ -131,6 +131,11 @@
       "title": "Cypress",
       "class": "newIcons-1",
       "src": "assets/icons/tecnologias-design/cypress.svg"
+    },
+    {
+      "title": "Testing Library",
+      "class": "newIcons-1",
+      "src": "assets/icons/tecnologias-design/testinglibrary.svg"
     }
   ]
 }
