@@ -12,7 +12,7 @@
  [![logo-real](https://user-images.githubusercontent.com/80923539/133706024-7db2efed-7fb0-46b3-ab7c-25f3d7f2c8dd.png)](https://nanepifanio.github.io/Dev.Epifanio/)
 
  
-Desenvolvido por mim, do layout ao código. Feito com HTML, CSS E Javascript puros. Pretendo refatorar o código dele futuramente (reescrever o CSS dele com o pré-processador SASS, automatizar algumas estruturas do HTML com o Js pro index.html não ficar tão grande como está agora...). 
+Desenvolvido por mim, do layout ao código. Feito com HTML, CSS E Javascript puros. Pretendo refatorar o código dele futuramente (reescrever o CSS dele com o pré-processador SASS e melhorar o código de alguns arquivos js principalmente). 
  
 
  </div>
