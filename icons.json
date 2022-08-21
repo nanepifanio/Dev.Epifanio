@@ -69,14 +69,14 @@
       "title": "TailwindCSS",
       "class": "newIcons",
       "src": "assets/icons/tecnologias-design/tailwindcss.svg"
-    }
-  ],
-  "toLearn": [
+    },
     {
       "title": "Redux",
       "class": "",
       "src": "assets/icons/tecnologias-design/icone-redux.svg"
-    },
+    }
+  ],
+  "toLearn": [
     {
       "title": "MySql",
       "class": "",
