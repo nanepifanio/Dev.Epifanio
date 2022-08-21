@@ -542,7 +542,7 @@ body::-webkit-scrollbar-thumb {
 /********************* skills ************************/
 
 .bg-skills {
-  background: url(../assets/images/bg-skills.jpg) no-repeat center;
+  background: url(../assets/images/bg-contato.jpg) no-repeat center;
   background-size: cover;
   padding: 60px calc((100% - 960px) / 2);
 }
@@ -786,7 +786,7 @@ abbr img:hover {
 /******************* Contato *************************/
 
 .bg-contato {
-  background: url(../assets/images/bg-contato.jpg) no-repeat center;
+  background: url(../assets/images/bg-skills.jpg) no-repeat center;
   background-size: cover;
   padding: 60px calc((100% - 960px) / 2);
   display: flex;
